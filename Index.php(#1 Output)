@@ -1,0 +1,15 @@
+<?php
+
+require_once 'Electronics.php';
+require_once 'Food.php';
+require_once 'Clothe.php';
+
+$electronic1 = new Electronics("Laptop", 1200, "Electronics", 2);
+$food1 = new Food("Bread", 3, "Food", "2025-05-01");
+$clothe1 = new Clothe("T-Shirt", 25, "Clothing", "L", "Cotton");
+
+echo $electronic1->getDetails() . "<br>";
+echo $food1->getDetails() . "<br>";
+echo $clothe1->getDetails() . "<br><br>";
+
+?>
